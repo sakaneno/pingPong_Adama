@@ -1,0 +1,240 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Gloria+Hallelujah&family=Goudy+Bookletter+1911&family=Oleo+Script:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Gilda+Display&family=Gloria+Hallelujah&family=Goudy+Bookletter+1911&family=Oleo+Script:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Gilda+Display&family=Gloria+Hallelujah&family=Goudy+Bookletter+1911&family=Oleo+Script:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Gilda+Display&family=Gloria+Hallelujah&family=Goudy+Bookletter+1911&family=Oleo+Script:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Underdog&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Gilda+Display&family=Gloria+Hallelujah&family=Goudy+Bookletter+1911&family=Oleo+Script:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Underdog&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: bisque;
+}
+
+.wrpper{
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: 700px 400px;
+    grid-template-rows: 600px;
+    grid-auto-columns: 100%;
+}
+.wrapper .item{
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+header{
+    background-image: url("imagens/adamaPicture.png");
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+header ::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.titulo{
+color: white;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+ul li{
+     width: 200px;
+     height: 80px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+nav li:hover{
+    background-color: rgb(10, 10, 10);
+    transition: 0.5s;
+}
+nav a:hover{
+    color: darkorange;
+}
+
+/*     Desingning  */
+
+.subti{
+    text-align: center;
+    padding: 10px;
+}
+
+/* Container Design*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 500px;
+    
+}
+
+.container .item{
+    width: 900px;
+    height: 100%;
+    color: white;
+    padding-top: 50px;
+
+}
+.container .item1{
+    background-color: brown;
+    background-image: url("imagens/adamaFoto.png");
+    width: 450px;
+}
+
+.resumo{
+    font-size: 15px;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+  font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Os Footers*/
+footer{
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  footer div{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .foot{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 350px;
+    margin: 15px;
+    background-color: rgb(20, 20, 20);
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .foot1{
+display: flex;
+  }
+  footer .foot,h2, h3{
+    color: white;
+  }
+
+  footer .parceiros{
+    display: flex;
+    margin: 30px;
+  }
+
+footer .parceiros{
+    display: flex;
+    flex-direction: column;
+}
+
+/*     Editando a parte do hover Perguntas     */
+label{
+    color: white;
+    font-size: 40px;
+}
+
+.conteudo p{
+    color: mistyrose;
+     font-weight: bold;
+     font-size: 30px;
+
+}
+
+.redes-sociais{
+width: 100%;
+height: 70px;
+background-color: white;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 40px;
+border-radius: 20px;
+}
+
+.conteudo{
+    background-color: chocolate;
+    padding: 20px;
+}
+
+.conteudo label{
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.conteudo p{
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button{
+    width: 200px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
